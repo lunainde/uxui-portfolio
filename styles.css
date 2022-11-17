@@ -1,0 +1,188 @@
+styles.css
+
+body  {
+  background-color: white;
+  color: black;
+  font-family: "Montserrat";
+}
+header {
+  margin-top: 2rem;
+}
+
+/* ---NAVBAR LEWAGON--- */
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+}
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+#fixed {
+  position: fixed;
+  background-color: white;
+  padding-top: 2rem;
+  margin-top: 0rem;
+  padding-right: 4rem;
+  padding-bottom: 1rem;
+  /* keeps navbar on top of items when scrolling */
+  z-index: 1;  
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  /* border: none; */
+}
+.navbar-toggler-icon {
+  background-color: #ffffff;
+  /* border: none; */
+}
+#nav-p {
+  margin: 0rem;
+}
+#nav-h6 {
+  margin: 0rem;
+}
+.nav-link {
+  margin-bottom: 0rem;
+  padding-top: 1rem;;
+  padding-bottom: 0rem;
+  /* justify-content: end; */
+} 
+
+
+/* -------INTRO-------- */
+
+.title-container {
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+.highlight { 
+  background-color:#FFFF00; 
+}
+.title-box {
+  margin-top: 8rem;
+  text-align: right;
+}
+.title-box h2 {
+  font-size: 50px;
+}
+
+
+/* --------PHOTOCARD----- */
+
+#photocard {
+  padding: 1rem auto 1rem auto;
+  margin-left: 4rem;
+  height: auto;
+  width: 70%;
+  background-position: center;
+  /* text-align: left; */
+  /* position: absolute;
+  z-index: -1; */
+}
+
+/* ----SECTION--- */
+.section-title {
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+  }
+
+/* -------- CARD PRODUCT */
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
+  display: flex;
+  align-items: center;
+}
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+.card-product .card-product-infos {
+  padding: 16px;
+}
+.blog {
+  font-size: 12px;
+}
+
+
+
+/* -----ABOUT--- */
+#about h6{
+font-size: 12px;
+color: grey;
+}
+
+/* ---BTN--- */
+
+.btn-flat {
+  color: white;
+  padding: 8px 36px;
+  border-radius: 4px;
+  background: #222222;
+  transition: background 0.3s ease;
+}
+.btn-flat:hover {
+  background: #444444;
+  color: white;
+}
+.btn {
+  border: none;
+  display: inline-block;
+  position: relative;
+  left: 100%;
+  transform: translateX(-100%);
+}
+/* removes after click highlight */
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+/*------FOOTER----- */
+.footer {
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #0000FF;
+}

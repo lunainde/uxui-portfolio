@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Visibility on Internet Explorer  -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <!-- Favicon + Fonts -->
+        <link rel="icon" href="images/call-me-lolita-logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Freehand&family=Montserrat:wght@100;200;400;600&display=swap" rel="stylesheet">
+        <!-- Fontawesome-Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">  
+        <!-- Browser tab & blue title on search -->
+        <title>HTML XiO task</title>
+        <meta name="description" content="...and let's meet here. Cafe & delicious organic, vegetarian, and taste food! Salad, paninis, healty bowls, mixed platters for two, and a wide variety of delightful snacks ">
+    </head>
+  
+<body>
+  <div class="container-fluid">
+  <header>
+    <!-----left---->
+    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+      <div class="container-fluid" id="fixed">
+        <div>
+          <h6 id="nav-h6"><strong>I'm Diana</strong></h6>
+          <p id="nav-p">a <span class="highlight">ux/ui</span> designer & digital activist</p>
+        </div>
+    <!-----toggler---->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#top">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">about</a>
+              </li>
+              <li class="nav-item dropdown">
+                <!-- <img class="avatar dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="https://kitt.lewagon.com/placeholder/users/ssaunier" /> -->
+                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#top">home</a>
+                  <a class="dropdown-item" href="#work">work</a>
+                  <a class="dropdown-item" href="#about">about</a>
+                  <a class="dropdown-item" data-turbo-method="delete" href="#">Log out</a>
+                </div>
+              </li>
+              <!--li class="nav-item"-->
+              <!--/li-->
+              
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+<!--INTRO-->
+  <section class="title-container">
+    <div class="row">
+      <!--text-->
+      <div class="title-box col-md-6">
+        <h2>Looking <i>for</i> the next</h2>
+        <h2><strong>opportunity</strong></h2>
+        <h2> to make <i>a</i> <strong>change</strong></h2>
+        <h2>/the <span class="highlight"><strong>digital</strong></span> way/</h2>
+      </div>
+      <!--photo-->
+      <div class="photocard-box col-md-6">
+        <img src="images/xio-photo.png" alt="XiO Photo" id="photocard"/>
+      </div>
+    </div>
+  </section>
+
+
+<!-- SECTION 3 -> CARD PRODUCT ------------------------------------------------->
+  <section id="cards">
+    <div class="container">
+      <h2 class="section-title" id="work"> work </h2>
+
+      <!-- card 1 -->
+      <div class="card-product">
+       <img src="images/coming-soon.png"/>
+       <div class="card-product-infos">
+         <h2>Final/</h2>
+         <p>The Raw App for Colored Moods</p>
+         <p>A cozy experience for gathering holistic knowledge about yourself</p>
+         <a class="blog" href="#" target="_blank">explore/ -></a>
+       </div>
+     </div>
+   <hr>
+  
+
+   <!-- card 2 -->
+   <div class="card-product">
+     <img src="images/spectrum-app.png"/>
+     <div class="card-product-infos">
+       <h2>Spectrum/</h2>
+       <p>The Raw App for Colored Moods</p>
+       <p>A cozy experience for gathering holistic knowledge about yourself</p>
+       <a class="blog" href="https://www.01011000.io/post/spectrum-the-raw-app-for-colored-moods" target="_blank">explore/ -></a>
+     </div>
+   </div>
+   <hr>
+
+   <!-- card 3 -->
+   <div class="card-product">
+     <img src="images/notability-app.png"/>
+     <div class="card-product-infos">
+       <h2>Notability/</h2>
+       <p>Case study and redesign</p>
+       <p>A judgement on information architecture and visual skills on selected app</p>
+       <a class="blog" href="https://www.01011000.io/post/case-study-analysis-notability-app-in-layers-for-full-flexibility" target="_blank">explore/ -></a>
+     </div>
+   </div>
+   <hr>
+
+    <!-- card 4 -->
+    <div class="card-product">
+      <img src="images/coming-soon.png"/>
+      <div class="card-product-infos">
+        <h2>Eventify/</h2>
+        <p>The Raw App for Colored Moods</p>
+        <p>A cozy experience for gathering holistic knowledge about yourself</p>
+        <a class="blog" href="#" target="_blank">explore/ -></a>
+      </div>
+    </div>
+    <hr>
+  </div>
+  </section>
+
+
+<!-- SECTION BLOG -->
+  <section>
+    <section id="cards-blog">
+      <div class="container">
+        <h2 class="section-title" id="blog">case study</h2>
+  
+      <!-- card 1 -->
+      <div class="card-product">
+        <img src="images/bvg-app.png"/>
+        <div class="card-product-infos">
+          <h2>BVG Berlin</h2>
+          <p>The Raw App for Colored Moods</p>
+          <p>A cozy experience for gathering holistic knowledge about yourself</p>
+          <a class="blog" href="https://www.01011000.io/post/pedaling-along-the-berliner-public-transport-app" target="_blank">explore/ -></a>
+        </div>
+        </div>
+        <hr>
+
+          <!-- card 2 -->
+      <div class="card-product">
+        <img src="images/wef-app.png"/>
+        <div class="card-product-infos">
+          <h2>WEF App</h2>
+          <p>The Raw App for Colored Moods</p>
+          <p>A cozy experience for gathering holistic knowledge about yourself</p>
+          <a class="blog" href="https://www.01011000.io/post/making-sense-of-the-user-flow-and-their-needs" target="_blank">explore/ -></a>
+        </div>
+        </div>
+        <hr>
+      </div>
+  </section>
+
+
+      <!-- SECTION ABOUT -->
+  <section id="about"> 
+    <div class="container">
+      <h2 class="section-title"> about </h2>
+      <h6>⦿ Born to fly  </h6>
+      <h6>⦿ German by jus Sanguines </h6>
+      <h6>⦿ Grew up in many countries </h6>
+      <h6>⦿ Found in Berlin, Germany </h6>
+      <br>
+      <p>Passionate about design & innovation, fascinated by topics such as UX|UI, Ai, AR|VR|MR, Blockchain, NFTs, Cryptocurrency, Token Economy, Web3.0, Metaverse, DAOs, Renewable Energy -> with humanity in mind.</p>
+      <p>I have a background in architecture, and about 12 years of experience in interiors [beach clubs, hotels, resorts & high-end residentials]. I am a self-taught photographer, art lover, active traveler, and foodie by heart.  I focus on brand & ux|ui design unlocking the values of businesses or personal images, to create that visual element that tells the story.</p>
+      <p>Also, I'm quite curious and interested in new ideas and new ways of doing things making life easier and pleasant. I believe design happens where style, functionality, and technology go hand in hand creating remarkable experiences for the people.</p>
+      <p>I believe we come to earth for good, to be served by machines giving each human being the choice to follow their true passion. Therefore, we are here to make the best out of our capacity to solve problems, dream, create, to automate tedious tasks like driving, provide free education for all globally, to advance, live well, and to enjoy life.</p>
+      <a href="https://www.01011000.io/" class="blog" target="_blank">full-portfolio/ -></a>
+      <br>
+      <!-----btn---->
+      <a class="btn btn-flat" href="https://www.01011000.io/cv2022" target="_blank">CV</a>
+      <br>
+      <br>
+      <hr>
+    </div>
+  </section>
+
+
+
+<!-- SECTION 4 -> FOOTER  ------------------------------------------------->
+<div class="footer">
+  <div class="footer-links">
+    <a href="https://www.01011000.io/" target="_blank"><i class="fa-solid fa-link"></i></a>
+    <a href="www.linkedin.com/in/01011000io" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://medium.com/@01011000io" target="_blank"><i class="fa-brands fa-medium"></i></a>
+    <a href="https://github.com/lunainde" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://twitter.com/01011000io" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/01011000.io/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/01011000io/" target="_blank"><i class="fab fa-facebook" ></i></a>
+  </div>
+  <div class="footer-copyright">
+    made with <i class="fas fa-heart"></i> by XiO
+  </div>
+</div>
+
+</body>
+</html>

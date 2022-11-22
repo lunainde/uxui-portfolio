@@ -31,6 +31,7 @@ header {
   /* keeps navbar on top of items when scrolling */
   z-index: 1;  
 }
+
 .navbar-light .navbar-nav .nav-link {
   color: black;
   /* border: none; */
@@ -53,6 +54,12 @@ header {
 } 
 
 
+/* .btn .navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+} */
+
+
 /* -------INTRO-------- */
 
 .title-container {
@@ -63,8 +70,9 @@ header {
   background-color:#FFFF00; 
 }
 .title-box {
-  margin-top: 8rem;
+  margin-top: 7rem;
   text-align: right;
+  padding-right: 1rem;
 }
 .title-box h2 {
   font-size: 50px;
@@ -75,7 +83,7 @@ header {
 
 #photocard {
   padding: 1rem auto 1rem auto;
-  margin-left: 4rem;
+  margin-left: 1rem;
   height: auto;
   width: 70%;
   background-position: center;
@@ -186,3 +194,40 @@ color: grey;
 .footer .fa-heart {
   color: #0000FF;
 }
+
+@media (max-width: 576px) {
+  .footer {
+    text-align: center;
+  }
+  .title-box {
+    margin-top: 1rem;
+    text-align: left;
+    margin-left: 1rem;
+  }
+  .title-box h2 {
+    font-size: 40px;
+  }
+  /* .dropdown-menu .dropdown-menu-end {
+    text-align: right;
+    justify-content: end;
+    align-content: flex-end;
+
+  } */
+ }
+
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+

@@ -23,6 +23,7 @@ header {
 
 #fixed {
   position: fixed;
+  top: 0;
   background-color: white;
   padding-top: 2rem;
   margin-top: 0rem;

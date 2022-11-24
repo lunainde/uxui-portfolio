@@ -99,6 +99,21 @@ header {
   padding-bottom: 2rem;
   }
 
+  /* -------ANIMATION--------- */
+.highlight2 {
+  background-color: yellow;
+  color: #222222;
+  animation-name: thanksColorChange ;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes thanksColorChange {
+from{ background-color: white;}
+to{ background-color: yellow;}
+}
+
+
 /* -------- CARD PRODUCT */
 .card-product {
   overflow: hidden;
@@ -107,6 +122,12 @@ header {
   /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
   display: flex;
   align-items: center;
+
+  transition-duration: 3s;
+  transition-duration: 2s;
+}
+.card-product:hover {
+height: 150px;
 }
 .card-product img {
   height: 100%;

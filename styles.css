@@ -98,7 +98,7 @@ header {
   margin-top: 4rem;
   padding-bottom: 2rem;
   }
-
+  
   /* -------ANIMATION--------- */
 .highlight2 {
   background-color: yellow;
@@ -110,7 +110,7 @@ header {
 }
 @keyframes thanksColorChange {
 from{ background-color: white;}
-to{ background-color: yellow;}
+to{ background-color: #yellow;}
 }
 
 
@@ -190,8 +190,41 @@ color: grey;
 
 
 /*------FOOTER----- */
-.footer {
+/* .footer {
   background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.footer, 
+.fa-heart {
+  color: #0000FF;
+}
+
+.footer-copyright{
+  justify-content: flex-end;
+} */
+.footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -214,12 +247,14 @@ color: grey;
   opacity: 1;
 }
 .footer .fa-heart {
-  color: #0000FF;
+  color: #0000ff;
 }
+
 
 @media (max-width: 576px) {
   .footer {
-    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .title-box {
     margin-top: 1rem;
